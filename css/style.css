@@ -1,0 +1,182 @@
+.task:hover a {
+    color: rgb(180, 176, 176);
+}
+
+.task:hover {
+    border: 1px solid rgb(154, 154, 154);
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.navbar-nav li {
+    padding: 5px 20px !important;
+}
+
+
+.navbar-nav li .active {
+    padding: 5px 25px !important;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+
+.search {
+    width: 90%;
+    margin: 0 5%;
+
+}
+
+.search-2 {
+    width: 60%;
+    margin: 0 5%;
+
+}
+
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 15px 50px 15px 20px;
+    background: #1e202b;
+    color: white;
+}
+
+form input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+form input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border: none;
+    background: #009ad8;
+    border-radius: 30px;
+    color: white;
+}
+
+.find-2 {
+    top: 52px;
+    left: 750px;
+    padding: 10px 40px;
+
+}
+
+.laier {
+    padding: 70px 0;
+    background-image: url(../imges/WhatsApp\ Image\ 2024-04-25\ at\ 11.41.13\ PM.jpeg);
+    background-size: cover;
+    min-height: 350px;
+}
+
+
+
+.backlayer-1 {
+
+    background-color: rgba(39, 38, 38, 0.853);
+
+}
+
+.backlayer-2 {
+
+    background-color: rgb(34, 33, 33);
+}
+
+
+.chiled {
+    background-color: rgb(36, 35, 35);
+    padding: bottom 30px;
+    ;
+
+}
+
+.chiled-1 {
+    background-color: rgb(44, 44, 44);
+    padding: bottom 30px;
+    ;
+}
+
+.font {
+    font-size: 50px;
+}
+
+.parent {
+    height: 250px;
+    position: relative;
+    bottom: 130px;
+}
+
+.chled-3 {
+    background-color: rgb(49, 49, 49);
+}
+
+
+
+.subscribe-form {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+}
+
+form input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+form input[type="submit"] {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+
+@media (max-width:768px) {
+
+    /* footer {
+        display: none;
+    } */
+
+    .my-contain {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .parent {
+        height: 100%;
+        position: relative;
+        bottom: 130px;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+
+
+    .subscribe-form {
+
+        margin-top: 50px;
+    }
+
+}

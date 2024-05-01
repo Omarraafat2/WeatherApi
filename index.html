@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api weather</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+          <a
+            class="navbar-brand d-flex justify-content-center align-items-center m-2"
+            href="#"
+          >
+            <img
+              width="80px"
+              class="logo me-3"
+              src="imges/Cloud-Computing-from-Save9.png"
+              alt=""
+            />
+            <div>
+              <h4 class="m-0 text-white">Weather App</h4>
+              <span class="fw-light fs-6 text-white">taglines goes here</span>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class=" nav-item mx-2 my-4 px-3 py-0">
+                <a class="nav-link active text-white fw-bolder " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2 my-4 px-3 py-0 task">
+                <a class="nav-link text-white" href="#">News</a>
+              </li>
+              <li class="nav-item mx-2 my-4 px-3 py-0 task">
+                <a class="nav-link text-white" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item mx-2 my-4 px-3 py-0 task">
+                <a class="nav-link text-white">Photos</a>
+              </li>
+              <li class="nav-item mx-2 my-4 px-3 py-0 task">
+                <a class="nav-link text-white">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="laier position-relative">
+      <div class="drak"></div>
+      <section>
+        <div class="position-relative container">
+          <form class="find-location position-relative">
+            <input  type="text" placeholder="Find your location..." id="find">
+            <input type="button" value="Find" id="search">
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <section class="">
+      <div class="main my-contain bg-dark">
+        <div id="weatherToDay" class="row m-0  parent justify-content-center  ">
+          <div class="col-md-3 text-center chiled-1 text-white rounded-start p-0 ">
+           <div class="d-flex justify-content-between p-2 rounded-start backlayer-1 w-100">
+            <h6 class="pt-3 px-2   ">tuesday</h6>
+            <h6 class="pt-3 px-2 ">31March</h6>
+           </div> 
+            <div class="text-start mt-4 mx-2"><h6>Cairo</h6></div>
+            <div class="text-start m-2">
+              <h2 class=" font  text-start fw-bolder">
+                33.3C
+                <img
+                  class="m-2"
+                  width="50px"
+                  src="imges/pngtree-sun-png-clipart-colored-png-image_5656301.png"
+                  alt=""
+                />
+              </h2>
+            </div>
+            
+
+            <div>
+              <p class="m-4 text-start">Clear</p>
+            </div>
+            <div class="text-start">
+              <span class="m-2"><img src="imges/icon-umberella.png"" alt=""> 8 km/h</span>
+              <span class="m-2"><img src="imges/icon-wind.png" alt=""> 8 km/h</span>
+              <span class="m-2"><img src="imges/icon-compass.png" alt=""> 8 km/h</span>
+            </div>
+          </div>
+          <div class="col-md-3 text-center chiled text-white  p-0">
+            <div class="d-flex justify-content-between  w-100 backlayer-2">
+            <h6 class="p-3  ">tuesday</h6>
+          </div>
+            <div>
+              <img
+                class="mt-4"
+                width="50px"
+                src="imges/pngtree-sun-png-clipart-colored-png-image_5656301.png"
+                alt=""
+              />
+            </div>
+
+            <div>
+              <h4 class="m-2">33.3C</h4>
+            </div>
+            <p class="m-4">18.6</p>
+            <div>
+              <p class="m-4">Sunny</p>
+            </div>
+          </div>
+          <div class="col-md-3 text-center chiled-1 text-white  rounded-end p-0 ">
+            <div class="d-flex justify-content-between   rounded-end backlayer-1 w-100">      
+                    <h6 class="p-3 ">tuesday</h6>
+            </div>
+            <div>
+              <img
+                class="mt-4"
+                width="50px"
+                src="imges/pngtree-sun-png-clipart-colored-png-image_5656301.png"
+                alt=""
+              />
+            </div>
+
+            <div>
+              <h4 class="m-2">33.3C</h4>
+            </div>
+            <p class="m-4">18.6</p>
+            <div>
+              <p class="m-4">Sunny</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <footer ">
+      <div class="chled-3 p-5 ">
+      <div class="position-relative  container ">
+        <form action="#" class="subscribe-form">
+          <input type="text" placeholder="Enter your email to subscribe..." fdprocessedid="v5spt">
+          <input type="submit" value="Subscribe" fdprocessedid="p1ubc">
+        </form>
+        <a href="" ><i class="fa-brands fa-facebook ms-5 me-3 fs-2 "></i></a>
+       
+       <a href=""><i class="fa-brands fa-twitter  mx-3 fs-2"></i></a> 
+        <a href=""><i class="fa-brands fa-google-plus-g  mx-3 fs-2"></i></a>
+       <a href=""><i class="fa-brands fa-google-wallet  mx-3 fs-2"></i>   </a>      
+      </div>
+      <div class="container  p-4"> <p class=" my-0 ms-4 text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p></div>
+     
+    </div></footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
